@@ -6,7 +6,7 @@ public class Driver
 	public static void main(String[] args) 
 	{		
 		Random r = new Random();
-		int[] ar = new int[20];
+		int[] ar = new int[10];
 		for(int i = 0; i < ar.length; i++)
 		{
 			ar[i] = r.nextInt(50);
